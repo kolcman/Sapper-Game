@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ConsoleUtils {
 
     public static String selectLevel() {
@@ -20,7 +21,7 @@ public class ConsoleUtils {
         }
     }
 
-    public static int getNumberInRange(String message, int from, int to){
+    public static int getNumberInRange(String message, int from, int to) {
         while (true) {
             System.out.println(message);
             Scanner sc = new Scanner(System.in);
